@@ -1,10 +1,10 @@
 # alphaplaylist
 
-name: # int elligence;
+name: int elligence;
 
 Zach, Joel, Michael, Marvens
 
-app name: # alphaplaylist
+app name: Alphaplaylist
 
 logo: 
 
