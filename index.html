@@ -17,10 +17,12 @@
     <div id="headerName">
         <p><font size = "+10">AlphaPlaylist</font></p>
     </div>
-    <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
-</header><button onclick="authenticate().then(loadClient)">authorize and load</button>
-<button onclick="execute()">execute</button>
+    
+</header>
 <body>
     
+<div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+<button onclick="authenticate().then(loadClient)">authorize and load</button>
+<button onclick="execute()">execute</button>
 </body>
 </html>
