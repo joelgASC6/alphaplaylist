@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <meta name="google-signin-scope" content="profile email">
+    <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="https://apis.google.com/js/api.js"></script>
     <script src="lib/js/main.js"></script>
     <link rel="stylesheet" href="lib/css/style.css">
 </head>
@@ -13,7 +17,9 @@
     <div id="headerName">
         <p><font size = "+10">AlphaPlaylist</font></p>
     </div>
-</header>
+    <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+</header><button onclick="authenticate().then(loadClient)">authorize and load</button>
+<button onclick="execute()">execute</button>
 <body>
     
 </body>
