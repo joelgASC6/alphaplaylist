@@ -34,12 +34,17 @@ header{
     margin: auto;
     width: 600px;
     list-style-type: none;
+    padding-top: 25px;
+    padding-right: 35px;
+    padding-bottom: 25px;
     text-align: center;
     background-image: linear-gradient(yellow, green, yellow);
 }
-li{
+#playlistDisplay li{
     margin-bottom: 10px;
-    border: ridge 5px linear-gradient(red, gold, red);
+    border-bottom:4px solid red;
+    background-color: rgba(255,0,0, 0.3);
+    color: lemonchiffon;
 }
 .navbar{
   overflow: hidden;  
