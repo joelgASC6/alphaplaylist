@@ -30,13 +30,18 @@ header{
 
 
 #playlistDisplay{
-    font-family: 'Nove Script', cursive;
+    font-family: 'Nova Script', cursive;
     margin: 5px;
     height: 30px;
     width: 200px;
+    list-style-type: none;
     text-align: center;
     background-image: linear-gradient(yellow, green, yellow);
-
+}
+li{
+    margin-bottom: 10px;
+    border: ridge 5px linear-gradient(red, gold, red);
+}
 .navbar{
   overflow: hidden;  
   
