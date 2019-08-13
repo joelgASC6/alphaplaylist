@@ -32,7 +32,7 @@ header{
 #playlistDisplay{
     font-family: 'Nova Script', cursive;
     margin: auto;
-    width: 200px;
+    width: 600px;
     list-style-type: none;
     text-align: center;
     background-image: linear-gradient(yellow, green, yellow);
