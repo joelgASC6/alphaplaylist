@@ -27,3 +27,12 @@ header{
     margin-right: 10px;
     object-fit: cover;
 }
+
+.navbar{
+  overflow: hidden;  
+  
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: flex-end;
+}

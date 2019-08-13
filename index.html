@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -30,6 +32,17 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    <style>
+       body {
+           background: whitesmoke;
+       }
+       .navbar {
+        overflow: hidden;
+        background-color:rgb(14, 243, 144);
+       }
+
+    
+    </style>
 </head>
 <header>
     <img id="logo" src="https://cdn.discordapp.com/attachments/452272682541776897/609463875321987083/alphaplaylist_logo__2_.png">       
@@ -39,7 +52,14 @@
     
 </header>
 <body>
-    
+        <div class="navbar">
+                <a href="#">Youtube-API</a>
+                <a href="#">Soundcloud-API</a>
+                <a href="#">Back to home</a>
+                <a href="#" class="right">Links</a>
+                
+        </div>
+
 <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
 <button onclick="authenticate().then(loadClient)">authorize and load</button>
 <button onclick="execute()">execute</button>
