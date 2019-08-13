@@ -31,8 +31,7 @@ header{
 
 #playlistDisplay{
     font-family: 'Nova Script', cursive;
-    margin: 5px;
-    height: 30px;
+    margin: auto;
     width: 200px;
     list-style-type: none;
     text-align: center;
