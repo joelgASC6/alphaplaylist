@@ -28,6 +28,15 @@ header{
     object-fit: cover;
 }
 
+
+#playlistDisplay{
+    font-family: 'Nove Script', cursive;
+    margin: 5px;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    background-image: linear-gradient(yellow, green, yellow);
+
 .navbar{
   overflow: hidden;  
   
@@ -35,4 +44,5 @@ header{
     justify-content: center;
     justify-content: space-around;
     align-items: flex-end;
+
 }
