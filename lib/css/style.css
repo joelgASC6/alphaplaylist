@@ -56,3 +56,12 @@ header{
     align-items: flex-end;
 
 }
+
+#playlistSelection{
+    font-family: 'Nova Script', cursive;
+}
+
+#picture{
+    height: 300px;
+    width: 300px;
+}
