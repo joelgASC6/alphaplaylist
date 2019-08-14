@@ -50,7 +50,7 @@ header{
 }
 
 #playlistDisplay li:hover{
-    background-color: rgba(255,0,0, 0.3);
+    background-color: rgba(255,0,0);
     color: white;
     transition: 1000ms;
 }
