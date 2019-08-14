@@ -44,7 +44,7 @@ header{
     background-image: linear-gradient(yellow, green, yellow);
 
 }
-#playlistDisplay.songElem{
+#playlistDisplay li{
     margin-bottom: 10px;
     border-bottom:4px solid red;
     background-color: rgba(255,0,0, 0.3);
