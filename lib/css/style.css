@@ -30,10 +30,29 @@ header{
 
 
 #playlistDisplay{
-    font-family: 'Nove Script', cursive;
-    margin: 5px;
-    height: 30px;
-    width: 200px;
+    font-family: 'Nova Script', cursive;
+    margin: auto;
+    width: 600px;
+    list-style-type: none;
+    padding-top: 25px;
+    padding-right: 35px;
+    padding-bottom: 25px;
     text-align: center;
     background-image: linear-gradient(yellow, green, yellow);
+
+}
+#playlistDisplay li{
+    margin-bottom: 10px;
+    border-bottom:4px solid red;
+    background-color: rgba(255,0,0, 0.3);
+    color: lemonchiffon;
+}
+.navbar{
+  overflow: hidden;  
+  
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: flex-end;
+
 }
