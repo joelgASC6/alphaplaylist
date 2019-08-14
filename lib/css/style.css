@@ -56,3 +56,7 @@ header{
     align-items: flex-end;
 
 }
+
+#playlistSelection{
+    font-family: 'Nova Script', cursive;
+}
