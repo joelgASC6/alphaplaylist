@@ -36,7 +36,7 @@ header{
     margin: auto;
     width: 90%;
     height: 100%;
-
+    border-radius: 50px;
     list-style-type: none;
     padding-top: 25px;
     padding-right: 35px;
@@ -50,6 +50,7 @@ header{
     border-bottom:4px solid red;
     background-color: rgba(255,0,0, 0.3);
     color: lemonchiffon;
+    border-radius: 50px;
 }
 
 #playlistDisplay li:hover{
