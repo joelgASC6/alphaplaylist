@@ -35,8 +35,7 @@ header{
     font-family: 'Nova Script', cursive;
     margin: auto;
     width: 90%;
-    height: 100%;
-
+    height: 90%;
     list-style-type: none;
     padding-top: 25px;
     padding-right: 35px;
@@ -49,6 +48,8 @@ header{
     margin-bottom: 10px;
     border-bottom:4px solid red;
     background-color: rgba(255,0,0, 0.3);
+}
+#playlistDisplay li a{
     color: lemonchiffon;
 }
 
