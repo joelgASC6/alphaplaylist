@@ -42,12 +42,13 @@ header{
     padding-bottom: 25px;
     text-align: center;
     background-image: linear-gradient(yellow, green, yellow);
-
+    border-radius: 50px;
 }
 #playlistDisplay li{
     margin-bottom: 10px;
     border-bottom:4px solid red;
     background-color: rgba(255,0,0, 0.3);
+    border-radius:50px;
 }
 #playlistDisplay li a{
     color: lemonchiffon;
