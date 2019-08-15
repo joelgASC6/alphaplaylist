@@ -42,8 +42,7 @@ header{
     padding-right: 35px;
     padding-bottom: 25px;
     text-align: center;
-    background-image: linear-gradient(yellow, green, yellow);
-    
+    background-image: linear-gradient(yellow, green, yellow);  
 }
 #playlistDisplay li{
     margin-bottom: 10px;
@@ -51,6 +50,9 @@ header{
     background-color: rgba(255,0,0, 0.3);
     color: lemonchiffon;
     border-radius: 50px;
+}
+#playlistDisplay li a{
+    color: lemonchiffon;
 }
 
 #playlistDisplay li:hover{
