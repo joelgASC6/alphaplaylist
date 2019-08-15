@@ -14,6 +14,14 @@
     <script src="https://apis.google.com/js/platform.js" async defer></script>
     <script src="https://apis.google.com/js/api.js"></script>
     <script src="lib/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+          $( "#playlistDisplay" ).sortable();
+          $( "#playlistDisplay" ).disableSelection();
+        } );
+        </script>
     <link rel="stylesheet" href="lib/css/style.css">
     <link rel="apple-touch-icon" sizes="57x57" href="icon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="icon/apple-icon-60x60.png">
