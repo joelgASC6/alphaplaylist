@@ -53,6 +53,7 @@ header{
 }
 #playlistDisplay li a{
     color: lemonchiffon;
+    text-decoration: none;
 }
 
 #playlistDisplay li:hover{
